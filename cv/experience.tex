@@ -11,16 +11,28 @@
 
 %---------------------------------------------------------
   \cventry
+    {Data Engineer} % Job title
+    {Marshall Wace} % Organization
+    {London, United Kingdom} % Location
+    {Apr. 2024 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {To be filled}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
     {Data Engineer \& Scientist} % Job title
     {Smarkets} % Organization
     {London, United Kingdom} % Location
-    {Sep. 2022 - Present} % Date(s)
+    {Sep. 2022 - Apr. 2024} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Designed and developed an industry-leading recommendation engine. Collected and processed user activity data which was fed into an implicit matrix factorisation model minimising RMSE loss. Hyperparameter tuning was done using a custom metric suite through a dockerised project using AWS EC2 resources. A/B testing revealed a \bf{40\% increase in user engagement} compared to baseline unpersonalised events.}
-        \item {Implemented a new asynchronous data ingestion pipeline in response to increased data volume. Designed a two-part system involving data streaming into postgres database from Kafka and an asynchronous Python job which loaded archived S3 files without severe I/O bottlenecking. New system \bf{reduced processing time for terabytes of CSV data to 12 minutes} per day of data, down from 2 hours per day previously.}
-        \item {Worked closely with internal DevOps team to begin the process of migrating pricing engine data systems from outdated infrastructure to a unified architecture. Involved the migration of Rust code and removal of Nix from the system (in favour of Docker). Careful QA to minimise trading downtime and data disruption. \bf{Reduced the engineering maintenance effort by 50\%} due to unified code architecture.}
-        \item {Helped marketing department improve acquisition strategy using user behavioural data. Created new event triggers which paid affiliates based on sustained activity rather than acquisition. \bf{Saved over \textsterling30,000 a month} in affiliate costs.}
+        \item {Developed an industry-leading recommendation engine. Processed user activity data in an implicit matrix factorisation model; hyperparameter tuning was done using a custom metric suite. A/B testing revealed a \bf{40\% increase in engagement} compared to unpersonalised events.}
+        \item {Implemented an asynchronous Python job using Kafka which loaded archived S3 files without severe I/O bottlenecking for trading backtesting. New system \bf{reduced processing time for terabytes of CSV data to 12 minutes} per day of data, down from 2 hours previously.}
+        \item {Worked closely with internal DevOps team to migrate Rust and Nix pricing engine data systems from outdated infrastructure to a unified architecture. \bf{Reduced the engineering maintenance effort by 50\%} due to unified code architecture.}
+        % \item {Helped marketing department improve acquisition strategy using user behavioural data. Created new event triggers which paid affiliates based on sustained activity rather than acquisition. \bf{Saved over \textsterling30,000 a month} in affiliate costs.}
         % \item {Developed an ML clustering pipeline using Latent Dirichlet Allocation which aggregated review data pulled from Google Play Store and iOS App Store APIs. Reviews were automatically binned into topics which reduced CX team's time spent reading reviews by 2 hours a week.}
         % \item {Trained a simple regression model allowing us to predict costs associated with customer activity with approximately 95\% R2 score.}
       \end{cvitems}
@@ -34,9 +46,9 @@
     {Jun. 2021 - Sep. 2021} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Built a backend API using Python's FastAPI serving a regression model to generate various statistics about homes. Model was integrated to 5 other internal services to be used throughout the organisation.}
+        \item {Built a backend API using Python's FastAPI serving a regression model to 5 other internal services.}
         \item {Built a front-end BI data visualisation dashboard using TypeScript and React with interactive street maps and tables.}
-        \item {Deployed these services from scratch using a pipeline involving Docker, Kubernetes and Terraform to generate infrastructure allowing data ingestion from AWS S3 and Snowflake and data serving via Kubernetes pods to a dedicated domain. CircleCI to allow for CI/CD.}
+        \item {Deployed these services using Docker, Kubernetes and Terraform with data ingestion from AWS S3 and Snowflake.}
       \end{cvitems}
     }
 

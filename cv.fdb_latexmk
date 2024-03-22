@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1706883671 "c:/workspaces/CVs/CV/cv.tex" "c:/workspaces/CVs/CV/cv.pdf" "cv" 1706883682
+["pdflatex"] 1711133206 "c:/workspaces/CVs/CV/cv.tex" "c:/workspaces/CVs/CV/cv.pdf" "cv" 1711133551
   "awesome-cv.cls" 1650207528 29029 bb82ac59906ecc9cac4d44b338c58ed0 ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1603121095 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1603120470 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -32,10 +32,9 @@
   "c:/texlive/2020/texmf-dist/web2c/texmf.cnf" 1603122545 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1603125457 2535463 e4082e926b08a5cac0692a943c1db543 ""
   "c:/texlive/2020/texmf.cnf" 1603125154 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "c:/workspaces/CVs/CV/cv.aux" 1706883671 9 a94a2480d3289e625eea47cd1b285758 ""
   "c:/workspaces/CVs/CV/cv.tex" 1706823343 3625 393a4dbbcf5e6da8044064f78c2ba189 ""
   "cv.tex" 1706823343 3625 393a4dbbcf5e6da8044064f78c2ba189 ""
   (generated)
-  "c:/workspaces/CVs/CV/cv.log"
   "c:/workspaces/CVs/CV/cv.pdf"
+  "c:/workspaces/CVs/CV/cv.log"
   "cv.log"
